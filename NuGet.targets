@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<BuildDependsOn>
+			_InsallNuGetPackages;$(BuildDependsOn)
+		</BuildDependsOn>
+	</PropertyGroup>
+
+	<Target Name="_InsallNuGetPackages">
+		<Exec Command="NuGet install $(ProjectDir)packages.config -o $(SolutionDir)packages" />
+	</Target>
+</Project>
