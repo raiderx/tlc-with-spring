@@ -1,0 +1,15 @@
+*.csproj.user
+/*.suo
+/TLC.Model/bin/
+/TLC.Model/obj/
+/TLC.Model.Tests/bin/
+/TLC.Model.Tests/obj/
+/TLC.Service/bin/
+/TLC.Service/obj/
+/TLC.Service.Tests/bin/
+/TLC.Service.Tests/obj/
+/TLC.Web/bin/
+/TLC.Web/obj/
+/TLC.Web.Tests/bin/
+/TLC.Web.Tests/obj/
+/packages/*
